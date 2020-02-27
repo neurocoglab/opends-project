@@ -9,5 +9,5 @@ This repository provides a template for setting up and running and opends-matlab
 * The results directory (for storing summary data, statistical results, figures, etc.)
 * Specific parameters defining the processing and analyses
 
-See [this Google doc](https://tinyurl.com/rlbycqc) for a detailed list of the parameters used by opends-matlab:
+See [this Google doc](https://tinyurl.com/rlbycqc) for a detailed list of the parameters used by opends-matlab.
 
