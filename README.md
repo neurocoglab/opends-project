@@ -1,5 +1,4 @@
 # opends-project
-Template project for opends-matlab processing
 
 This repository provides a template for setting up and running and opends-matlab analysis on your dataset. Each script is meant to be run as a standalone, within its own directory. The scripts should be modified in order to point to the opends-matlab library, and specify system-specific parameters, such as:
 
