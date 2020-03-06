@@ -25,6 +25,7 @@ params.general.clobber = true;
 params.io.input_dir = '/Volumes/AndrewElements/data/driving';
 params.io.output_dir = '/Volumes/AndrewElements/data/driving/processed2';
 params.general.subjects_file = 'subjects_qc_eye.csv';
+% params.general.subjects_file = 'subjects_test_eeg.csv';
 
 % Specify eye tracker as SMI
 params.eye.tracker_type = 'smi';
@@ -33,6 +34,6 @@ params.eye.sub_dir = 'tracking';
 % Specify acquisition parameters
 params.eye.Fs = 500;
 
-% Run pre-processing script
+%% Run pre-processing script
 
 preprocessing_eye;

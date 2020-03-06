@@ -23,6 +23,7 @@ params.general.clobber = false;
 params.io.input_dir = '/Volumes/AndrewElements/data/driving';
 params.io.output_dir = '/Volumes/AndrewElements/data/driving/processed2';
 params.general.subjects_file = 'subjects_eeg.csv';
+% params.general.subjects_file = 'subjects_test_eeg.csv';
 
 % Specify EEG stuff
 params.eeg.bad_channel_file = 'bad_channels.csv';
@@ -35,3 +36,6 @@ preprocessing_1_eeg;
 
 preprocessing_2_eeg;
 
+%% Run pre-processing Step 3
+
+preprocessing_3_eeg;
