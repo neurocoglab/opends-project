@@ -1,0 +1,5 @@
+Event,TrialIdx,From,To
+ChangeLeft,1,-18000,13000
+Overtake,2,-1000,1500
+ChangeRight,3,-10000,10000
+Brake,4,-10000,10000

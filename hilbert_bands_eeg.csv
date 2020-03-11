@@ -1,0 +1,6 @@
+Band,From,To,Filtord
+Delta,0.5,4.0,2
+Theta,4.0,8.0,2
+Alpha,8.0,14.0,2
+Beta,14.0,30.0,6
+Gamma,30.0,60.0,6
