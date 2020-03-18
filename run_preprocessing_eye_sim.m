@@ -28,7 +28,7 @@ params.general.subjects_file = 'subjects_qc_eye.csv';
 % params.general.subjects_file = 'subjects_test_eeg.csv';
 
 % Specify eye tracker as SMI
-params.eye.tracker_type = 'smi';
+params.eye.convert.format = 'smi';
 params.eye.sub_dir = 'tracking';
 
 % Specify acquisition parameters
