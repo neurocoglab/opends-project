@@ -19,13 +19,13 @@ default_params_sim;
 default_params_eye;
 
 % Clobber?
-params.general.clobber = true;
+params.general.clobber = false;
 
 % Specify I/O stuff
-params.io.input_dir = '/Volumes/AndrewElements/data/driving';
-params.io.output_dir = '/Volumes/AndrewElements/data/driving/processed2';
+params.io.input_dir = '/Volumes/GDriveUsb/data/driving';
+params.io.output_dir = '/Volumes/GDriveUsb/data/driving/processed';
 params.general.subjects_file = 'subjects_qc_eye.csv';
-% params.general.subjects_file = 'subjects_test_eeg.csv';
+%params.general.subjects_file = 'subjects_test_eeg.csv';
 
 % Specify eye tracker as SMI
 params.eye.convert.format = 'smi';
